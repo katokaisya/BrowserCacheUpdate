@@ -6,8 +6,8 @@ $config = array(
 			array('name'	 => '設定',
 				'url'	 => array(
 					'admin'		 => true,
-					'plugin'	 => 'BrowserCacheUpdate',
-					'controller' => 'BrowserCacheUpdate',
+					'plugin'	 => 'browser_cache_update',
+					'controller' => 'browser_cache_update',
 					'action'	 => 'index')
 			)
 		)
@@ -21,8 +21,8 @@ $config['BcApp.adminNavigation'] = [
 				'title' => 'ブラウザキャッシュ更新設定',
 				'url' => [
 					'admin' => true,
-					'plugin' => 'BrowserCacheUpdate',
-					'controller' => 'BrowserCacheUpdate',
+					'plugin' => 'browser_cache_update',
+					'controller' => 'browser_cache_update',
 					'action' => 'index'
 				]
 			],
